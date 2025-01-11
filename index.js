@@ -1,5 +1,4 @@
 const carrusel = document.querySelector(".carrusel");
-const figure = document.querySelector("figure");
 const slides = document.querySelectorAll(".slide");
 const derBot = document.querySelector(".botonDer");
 const izqBot = document.querySelector(".botonIzq");
