@@ -14,7 +14,6 @@ body {
 nav {
   background-image: url("images/bg.png");
   background-color: blueviolet;
-  background-position:50%;
   width: 100%;
   height: fit-content;
   display: flex;
@@ -80,8 +79,8 @@ nav li:hover {
 
 .principal{
   display: flex;
-  flex-wrap: wrap;
 }
+
 .tituloUltimo {
   color: #8911b4;
   font-size: 5rem;
@@ -89,28 +88,26 @@ nav li:hover {
 }
 
 .ultimo {
-  height: 40rem;
+  height: 45rem;
   width: 40%;
   margin: 5%;
   border: 10px inset #ed68ff;
   padding: 10px;
   position: relative;
-  flex: 1;
 }
 
 /* Carrusel */
 .carrusel {
   width: 100%;
   height: 500px;
-  overflow: hidden;
+  overflow-y: hidden;
   position: relative;
 }
+
 .slide img {
   width: 100%;
   height: 100%;
-  object-fit:contain;
-  border: none;
-  border-style: none;
+  object-fit: cover;
 }
 
 .slide h2 {
@@ -156,14 +153,7 @@ nav li:hover {
   left: 5%;
 }
 
-@keyframes left {
-  from { left: 0; }
-  to { left: -100%; }
-}
-
 .pregunta{
-  display: flex;
-  flex-direction: column;
   width: 50em;
   margin: 5%;
 }
@@ -177,3 +167,44 @@ nav li:hover {
 }
 
 /*Footer*/ 
+footer{
+  background-image: url("images/bg.png");
+  background-color: blueviolet;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer img{
+  width: 100px;
+  height: 100px;
+}
+.social{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+}
+.social img{
+  padding: 10%;
+  margin: 10%;
+}
+.social h3{
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.ayuda{
+  display: flexbox;
+  color: white;
+  justify-content:flex-end;
+  align-items: flex-end;
+  margin: 2%;
+  flex: 1;
+}
+.ayuda h3{
+  font-weight: bolder;
+}
+.logoFooter{
+  left: 100px;
+}
