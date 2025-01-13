@@ -5,6 +5,12 @@ const izqBot = document.querySelector(".botonIzq");
 
 let slideActual = 0;
 
+slides.forEach((slide, index) => {
+  if (index !== 0) {
+    slide.style.display = "none";
+  }
+});
+
 function mostrarSiguienteSlide() {
   slides[slideActual].style.display = "none";
   slideActual = (slideActual + 1) % slides.length;
@@ -24,4 +30,5 @@ function mostrarSlideAnterior() {
 izqBot.addEventListener("click", () => {
   mostrarSlideAnterior();
 });
+
 
