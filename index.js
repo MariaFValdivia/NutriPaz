@@ -31,4 +31,6 @@ izqBot.addEventListener("click", () => {
   mostrarSlideAnterior();
 });
 
-
+$('.carousel').carousel('cycle')({
+  interval: 1
+})

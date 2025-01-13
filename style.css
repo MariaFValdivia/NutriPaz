@@ -17,22 +17,17 @@ nav {
   width: 100%;
   height: fit-content;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: center; 
   align-items: center;
   padding: 1rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
   flex-wrap: wrap;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
-  margin-right: auto;
-  margin-left: 1rem;
+  width: 150px;
+  height: 150px;
+  margin-left: 4rem;
 }
 
 /* Navbar links */
@@ -41,7 +36,8 @@ nav li {
   background-color: #fbd0ff;
   font-family: "Open Sans", sans-serif;
   padding: 0.5rem;
-  margin: 1rem;
+  margin: 4rem;
+  margin-left: 3rem;
   color: #4e269f;
   list-style: none;
   text-align: center;
@@ -52,6 +48,7 @@ nav li {
   box-shadow: 4px 4px 4px 4px #761e88;
   transition: background-co0lor 0.3s ease, box-shadow 0.3s ease;
   max-width: 100%;
+  
 }
 
 
@@ -177,7 +174,136 @@ nav li:hover {
 
     }
   }
-/*Footer*/ 
+/*Sobre mi*/ 
+
+.sobreMi{
+  display: flex;
+}
+.sobreMi img{
+  width: 500px;
+  height: 500px;
+  margin: 5%;
+  margin-top: 15%;
+}
+.sobreMi h2{
+  font-size: 60px;
+  color: #761e88;
+  font-weight: bolder;
+  text-align: center;
+  margin: 5%;
+}
+
+.sobreMi p{
+  font-size: 20px;
+  text-align: justify;
+  margin: 5%;
+  width: 100%;
+  margin: 5% auto;
+  max-width: 80%;
+  align-items: center;
+}
+.botonHablar{
+  display: flex;
+  align-items: center;
+  
+}
+.hablemos{
+  color: #761e88;
+  padding: 10px 20px;
+  border: 10px  #a7469f;
+  border-style: solid;
+  border-radius: 30px;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 100px;
+  font-size: 50px;
+  text-decoration: none;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+}
+.carousel-inner{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.tituloForm{
+  font-size: 40px;
+  color: #761e88;
+  font-weight: bolder;
+  text-align: center;
+  margin: 5%;
+}
+.formContacto{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5%;
+}
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+button[type="submit"] {
+  background-color: #8d4294; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+button[type="reset"] {
+  background-color: #8d4294; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #554293;
+}
+button[type="reset"]:hover {
+  background-color: #554293;
+}
+
+@media screen and (max-width: 768px) {
+  .sobreMi{
+    display: block;
+    width: 100%;
+  }
+  .sobreMi img{
+    width: 400px;
+    height: 400px;
+  }
+  .sobreMi p{
+    font-size: 15px;
+    width: 450px;
+  }
+  .hablemos{
+    font-size: 30px;
+    margin-left: 150px;
+  }
+}
+  /*Footer*/ 
 footer{
   background-image: url("images/bg.png");
   background-color: blueviolet;
@@ -253,4 +379,4 @@ footer img{
     left: 200px;
     margin-top: 130px;
   }
-  }
+}
