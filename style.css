@@ -106,11 +106,12 @@ nav li:hover {
   font-family: "Open Sans", sans-serif;
   border: none;
   border-style: none;
+  margin: 4%;
 }
 
 .slide h3 {
   font-size: 1.2rem;
-  text-align: center;
+  text-align: justify;
   bottom: 20px;
   color: #22082c;
   font-family: "Open Sans", sans-serif;
@@ -149,6 +150,7 @@ nav li:hover {
   color:#8911b4;
   font-size: 3em;
   text-align: justify;
+  margin: 5%;
 }
 .pregunta p{
   font-size: 20px;
@@ -219,12 +221,12 @@ nav li:hover {
   font-size: 50px;
   text-decoration: none;
   text-decoration-line: none;
-  -moz-text-decoration-line: none;
 }
 .carousel-inner{
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 .tituloForm{
   font-size: 40px;
   color: #761e88;
@@ -302,6 +304,62 @@ button[type="reset"]:hover {
     font-size: 30px;
     margin-left: 150px;
   }
+}
+
+/*Cuida tu mente*/
+.cuidadoMente{
+  font-size: 40px;
+  color: #761e88;
+  font-weight: bolder;
+  text-align: center;
+  margin: 5%;
+}
+.parrafoMente{
+  font-size: 30px;
+  text-align: justify;
+  text-wrap: wrap;
+  margin: 5%;
+}
+.linksCuidados{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.tips {
+  font-size: 30px;
+  color: #b01dce;
+  font-weight: bold;
+  border: none; 
+  border-style: none;
+  text-decoration-line: none;
+}
+.tips:hover{
+  color: #590869;
+}
+.cardMente{
+  height: 400px;
+  width: 400px;
+  margin:20px;
+  text-align: center;
+  text-wrap: wrap;
+}
+.imagenesCuidados{
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.imagenesCuidados:hover{
+  box-shadow: 0 0 10px #22082c;
+}
+
+@media screen and (max-width: 768px) {
+  .linksCuidados{
+    display: block;
+    margin: 5%;
+  }
+  
 }
   /*Footer*/ 
 footer{
