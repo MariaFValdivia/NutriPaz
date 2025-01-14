@@ -62,6 +62,19 @@ nav li:hover {
   background-color: #fadeff;
   box-shadow: 0 0 10px #bf0fff;
 }
+@media screen and (max-width: 768px) {
+  nav li{
+    font-size: 1rem;
+    margin: 10px;
+  }  
+  }
+
+@media screen and (max-width: 460px) {
+nav li{
+  font-size: 1rem;
+  margin: 10px;
+}  
+}
 
 /* Main */
 
@@ -172,10 +185,31 @@ nav li:hover {
   .botonDer, .botonIzq {
     width: 20px;
     height: 20px;
-    top: 35%
+    top: 25%
 
     }
   }
+  @media screen and (max-width: 460px) {
+    .principal{
+     display: block;
+    }
+    .ultimo{
+      width: 90%;
+    }
+    .tituloUltimo{
+      font-size: 40px;
+    }
+    .pregunta h2{
+      font-size: 2em;
+      text-wrap: wrap;
+    }
+    .botonDer, .botonIzq {
+      width: 20px;
+      height: 20px;
+      top: 25%
+  
+      }
+    }
 /*Sobre mi*/ 
 
 .sobreMi{
@@ -305,7 +339,31 @@ button[type="reset"]:hover {
     margin-left: 150px;
   }
 }
-
+@media screen and (max-width: 460px) {
+  .sobreMi{
+    display: block;
+    width: 100%;
+  }
+  .sobreMi img{
+    width: 350px;
+    height: 350px;
+    align-items: center;
+  }
+  .sobreMi p{
+    font-size: 15px;
+    width: 450px;
+  }
+  .hablemos{
+    font-size: 30px;
+    margin-left: 100px;
+  }
+  .carousel-inner{
+    width: 70%;
+  }
+  form{
+    width: 70%;
+  }
+}
 /*Cuida tu mente*/
 .cuidadoMente{
   font-size: 40px;
@@ -360,6 +418,19 @@ button[type="reset"]:hover {
     margin: 5%;
   }
   
+}
+@media screen and (max-width: 460px) {
+  .linksCuidados{
+    display: block;
+  }
+  .cardMente{
+    width: 100%;
+    margin: 10px auto;
+  }
+  .imagenesCuidados{
+    width: 100%;
+  }
+
 }
   /*Footer*/ 
 footer{
@@ -435,6 +506,16 @@ footer img{
     display: block;
     position: absolute;
     left: 200px;
+    margin-top: 130px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .logoFooter img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    left: 150px;
     margin-top: 130px;
   }
 }
