@@ -116,6 +116,32 @@ nav {
 	border: 10px inset #ed68ff;
 	padding: 10px;
 	position: relative;
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+			@-webkit-keyframes text-focus-in {
+				0% {
+				  -webkit-filter: blur(12px);
+						  filter: blur(12px);
+				  opacity: 0;
+				}
+				100% {
+				  -webkit-filter: blur(0px);
+						  filter: blur(0px);
+				  opacity: 1;
+				}
+			  }
+			  @keyframes text-focus-in {
+				0% {
+				  -webkit-filter: blur(12px);
+						  filter: blur(12px);
+				  opacity: 0;
+				}
+				100% {
+				  -webkit-filter: blur(0px);
+						  filter: blur(0px);
+				  opacity: 1;
+				}
+			  } 
 }
 
 .carrusel {
@@ -196,6 +222,32 @@ nav {
 	p {
 		font-size: 20px;
 	}
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+			@-webkit-keyframes text-focus-in {
+				0% {
+				  -webkit-filter: blur(12px);
+						  filter: blur(12px);
+				  opacity: 0;
+				}
+				100% {
+				  -webkit-filter: blur(0px);
+						  filter: blur(0px);
+				  opacity: 1;
+				}
+			  }
+			  @keyframes text-focus-in {
+				0% {
+				  -webkit-filter: blur(12px);
+						  filter: blur(12px);
+				  opacity: 0;
+				}
+				100% {
+				  -webkit-filter: blur(0px);
+						  filter: blur(0px);
+				  opacity: 1;
+				}
+			  }
 }
 .informaciones{
 	display: flex;
@@ -242,6 +294,32 @@ nav {
 		max-width: 80%;
 		align-items: center;
 	}
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	@-webkit-keyframes text-focus-in {
+		0% {
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-filter: blur(0px);
+				  filter: blur(0px);
+		  opacity: 1;
+		}
+	  }
+	  @keyframes text-focus-in {
+		0% {
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-filter: blur(0px);
+				  filter: blur(0px);
+		  opacity: 1;
+		}
+	  }
 }
 
 .botonHablar {
@@ -335,6 +413,32 @@ button[type="reset"] {
 	font-weight: bolder;
 	text-align: center;
 	margin: 5%;
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	@-webkit-keyframes text-focus-in {
+		0% {
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-filter: blur(0px);
+				  filter: blur(0px);
+		  opacity: 1;
+		}
+	  }
+	  @keyframes text-focus-in {
+		0% {
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-filter: blur(0px);
+				  filter: blur(0px);
+		  opacity: 1;
+		}
+	  }
 }
 
 .parrafoMente {
@@ -342,12 +446,64 @@ button[type="reset"] {
 	text-align: justify;
 	text-wrap: wrap;
 	margin: 5%;
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	@-webkit-keyframes text-focus-in {
+		0% {
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-filter: blur(0px);
+				  filter: blur(0px);
+		  opacity: 1;
+		}
+	  }
+	  @keyframes text-focus-in {
+		0% {
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-filter: blur(0px);
+				  filter: blur(0px);
+		  opacity: 1;
+		}
+	  }
 }
 
 .linksCuidados {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	@-webkit-keyframes text-focus-in {
+		0% {
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-filter: blur(0px);
+				  filter: blur(0px);
+		  opacity: 1;
+		}
+	  }
+	  @keyframes text-focus-in {
+		0% {
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-filter: blur(0px);
+				  filter: blur(0px);
+		  opacity: 1;
+		}
+	  }
 }
 
 .tips {
@@ -380,6 +536,32 @@ button[type="reset"] {
 	&:hover {
 		box-shadow: 0 0 10px #22082c;
 	}
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	@-webkit-keyframes text-focus-in {
+		0% {
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-filter: blur(0px);
+				  filter: blur(0px);
+		  opacity: 1;
+		}
+	  }
+	  @keyframes text-focus-in {
+		0% {
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-filter: blur(0px);
+				  filter: blur(0px);
+		  opacity: 1;
+		}
+	  }
 }
 
 footer {
