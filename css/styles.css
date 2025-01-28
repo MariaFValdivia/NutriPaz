@@ -11296,8 +11296,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-nav {
-  background-image: url("../images/fondo.png");
+.navbar navbar-expand-lg {
+  background-image: url("../images/bg.png");
   background-color: blueviolet;
   width: 100%;
   height: fit-content;
@@ -11307,8 +11307,9 @@ nav {
   align-items: center;
   padding: 1rem;
   flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-nav li {
+.navbar navbar-expand-lg li {
   background-color: #fbd0ff;
   font-family: "Open Sans", sans-serif;
   padding: 0.5rem;
@@ -11322,10 +11323,10 @@ nav li {
   height: min-content;
   border-radius: 20px;
   box-shadow: 4px 4px 4px 4px #761e88;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition: background-co0lor 0.3s ease, box-shadow 0.3s ease;
   max-width: 100%;
 }
-nav li a {
+.navbar navbar-expand-lg li a {
   text-decoration: none;
   color: #590869;
   font-weight: bolder;
@@ -11333,7 +11334,7 @@ nav li a {
   color: #590869;
   font-weight: bolder;
 }
-nav li:hover {
+.navbar navbar-expand-lg li:hover {
   background-color: #fadeff;
   box-shadow: 0 0 10px #bf0fff;
   background-color: #fadeff;

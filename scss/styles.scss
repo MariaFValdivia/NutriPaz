@@ -43,7 +43,7 @@ body {
 }
 
 nav {
-	background-image: url("../images/bg.png");
+	background-image: url("../images/fondo.png");
 	background-color: $background-color_2;
 	width: 100%;
 	height: fit-content;
@@ -52,7 +52,6 @@ nav {
 	justify-content: center;
 	align-items: center;
 	padding: 1rem;
-	flex-wrap: wrap;
 	flex-wrap: wrap;
 
 	li {
@@ -69,7 +68,7 @@ nav {
 		height: min-content;
 		border-radius: 20px;
 		box-shadow: 4px 4px 4px 4px #761e88;
-		transition: background-co0lor 0.3s ease, box-shadow 0.3s ease;
+		transition: background-color 0.3s ease, box-shadow 0.3s ease;
 		max-width: 100%;
 
 		a {
