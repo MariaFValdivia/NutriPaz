@@ -15,8 +15,7 @@ body {
 }
 
 nav {
-  background-image: url("../images/fondo.png");
-  background-color: blueviolet;
+  background-image: url("../images/bg.png");
   width: 100%;
   height: fit-content;
   display: flex;
