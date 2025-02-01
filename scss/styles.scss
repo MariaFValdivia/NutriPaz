@@ -257,20 +257,33 @@ nav {
 	color: $color_3;
 }
 
-.purple-btn {
-	background-color: $background-color_3;
-	border-color: purple;
-  
-	&:hover {
-	  background-color: #9933CC;
-	  border-color: #9933CC;
-	}
-  
-	&:focus {
-	  box-shadow: 0 0 0 0.2rem rgba(153, 51, 204, 0.5) !important;
-	}
+.btn-group-justified {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
   }
+  
+  .btn-group-justified .btn {
+	flex: 1;
+	margin: 1rem;
+	background-color: $background-color_7;
+	border-color: $color_2;
+	color: $color_9;
+  }
+  
+  .btn-group-justified .btn:hover {
+	background-color: $background-color_1;
+	color: $color_2;
+	}
 
+  .btn-group-justified .btn:first-child {
+	margin-left: 0;
+  }
+  
+  .btn-group-justified .btn:last-child {
+	margin-right: 0;
+  }
+  
 .sobreMi {
 	display: flex;
 

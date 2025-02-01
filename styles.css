@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-  background-image: url("../images/bg.png");
+  background-image: url("./images/bg.png");
   width: 100%;
   height: fit-content;
   display: flex;
@@ -229,16 +229,31 @@ nav li:hover {
   color: #8911b4;
 }
 
-.purple-btn {
-  background-color: purple !important;
-  border-color: purple !important;
+.btn-group-justified {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
-.purple-btn:hover {
-  background-color: #9933CC !important;
-  border-color: #9933CC !important;
+
+.btn-group-justified .btn {
+  flex: 1;
+  margin: 1rem;
+  background-color: #8d4294;
+  border-color: #590869;
+  color: white;
 }
-.purple-btn:focus {
-  box-shadow: 0 0 0 0.2rem rgba(153, 51, 204, 0.5) !important;
+
+.btn-group-justified .btn:hover {
+  background-color: #f0c4f8;
+  color: #590869;
+}
+
+.btn-group-justified .btn:first-child {
+  margin-left: 0;
+}
+
+.btn-group-justified .btn:last-child {
+  margin-right: 0;
 }
 
 .sobreMi {
@@ -531,7 +546,7 @@ button[type=reset]:hover {
 }
 
 footer {
-  background-image: url("../images/bg.png");
+  background-image: url("./images/bg.png");
   background-color: blueviolet;
   width: 100%;
   height: fit-content;
