@@ -229,6 +229,18 @@ nav li:hover {
   color: #8911b4;
 }
 
+.purple-btn {
+  background-color: purple !important;
+  border-color: purple !important;
+}
+.purple-btn:hover {
+  background-color: #9933CC !important;
+  border-color: #9933CC !important;
+}
+.purple-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(153, 51, 204, 0.5) !important;
+}
+
 .sobreMi {
   display: flex;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
